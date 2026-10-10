@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# CivicVision dataset and generated files
+mini_project/data/
+mini_project/civicvision_pothole_mini.zip
+
+# Model weights
+mini_project/*.pt
+mini_project/*.pth
+
+# Training results, predictions, and generated outputs
+mini_project/outputs/
+
+# Local environment files
+.env
+.env.*
+!.env.example
